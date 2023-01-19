@@ -1,38 +1,190 @@
-.App {
-  text-align: center;
+.products-info {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+  justify-content: center;
+  border-radius: 55%;
+}
+.container{
+  background-color: #E4E3E3;
+}
+.navbar{
+  background-color: #3B6978;
+  padding:15px;
+}
+.each{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  color:white;
+  font-family: 'Alata', sans-serif;
+  padding:10px
+}
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+}
+.eachone{
+  display: flex;
+  flex:1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 25px;
+  color:white;
+  font-family: 'DM Serif Text', serif;
+  padding:10px
+}
+.header{
+  display: flex;
+  justify-content: center;
+  color:#204051;
+  font-family: 'DM Serif Text', serif;
+  font-size: 18px;
+}
+.choose{
+  border:none;
+ 
+  padding:7px;
+  background: -webkit-linear-gradient(#204051, #3B6978);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Alata', sans-serif;
+  text-transform: uppercase;
+  background-color: #3B6978;
+  font-size: 20px;
+}
+.choose:hover {
+  color: white;
+
+}
+.choice{
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px; 
+   padding:7px;
+   background: rgb(32,64,81);
+background: radial-gradient(circle, rgba(32,64,81,0.5480786064425771) 0%, rgba(228,227,227,1) 100%);
+ 
+}
+.serv{
+  display: flex;
+  justify-content: center;
+  height:55px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p{
+  margin-top: 4px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.fon{
+  background-image: url("https://images.unsplash.com/photo-1620629228754-6ed8b519bd0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJ1c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
+  height: 100vh;
+  background-position: center;
+  font-size:50px;
+  background-repeat:no-repeat; 
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+  border-radius: 55%;
+}
+
+.info{
+  font-size: 15px;
+  background: rgb(32,64,81);
+background: linear-gradient(0deg, rgba(32,64,81,1) 0%, rgba(59,105,120,0.20354079131652658) 100%);
+color:white;
+font-family: 'DM Serif Text', serif;
+font-size: 25px;
+justify-content: center;
+}
+.left{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+width:800px;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+}
+.more{
+  border:none;
+  text-decoration: none;
+  font-style: italic;
+  padding:15px;
+  background-color: #3B6978;
+  border-radius: 50px;
+  color:#E4E3E3;
+  text-transform: uppercase;
+}
+h1{
+  color: #204051;
+}
+h3{
+  color: #3B6978;
+}
+h4{
+  background: rgb(32,64,81);
+background: linear-gradient(0deg, rgba(32,64,81,1) 0%, rgba(59,105,120,0.20354079131652658) 100%);
+padding:10px;
+color:white;
+}
+.price{
+  color:#204051;
+}
+h6{
+  font-size: 17px;
+  color:#204051
+}
+.about{
+  font-family: 'DM Serif Text', serif;
+}
+img{
+  border-radius: 10px;
+}
+.about{
+  display: flex;
+  justify-content: center;
+  color: #204051;
+  font-family: 'Alata', sans-serif;
+}
+.ourtrips{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.destination{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.text{
+  width:700px;
+  font-family: 'Alata', sans-serif;
+  align-self: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slides{
+  display: flex;
+  justify-content: center;
+}
+.nextprev{
+  border:none;
+  width:500px;
+  padding:15px;
+  background-color: #3B6978;
+  border-radius: 50px;
+  color:#E4E3E3;
+  text-transform: uppercase;
+}
+.country{
+font-size: 30px;
 }
